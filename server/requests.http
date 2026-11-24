@@ -1,0 +1,13 @@
+@hostname = localhost
+@port = 3000
+@host = {{hostname}}:{{port}}
+
+GET http://{{host}}/health
+
+###
+
+POST http://{{host}}/health
+
+###
+
+GET http://{{host}}/nf
